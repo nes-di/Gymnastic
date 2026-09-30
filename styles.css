@@ -73,3 +73,66 @@ nav {
 .link a:hover::after {
     width: 100%;
 }
+
+.header_content {
+    margin-top: 4rem;
+}
+
+.header_content h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 5rem;
+    color: var(--white);
+}
+
+.header_content h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+    margin-bottom: 2rem;
+}
+
+.header_details {
+    max-width: 350px;
+    padding: 2rem;
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+.header_details p {
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--white);
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff7da7;
+}
+
+.header_image {
+    position: absolute;
+    top: 50%;
+    right: 5rem;
+    transform: translateY(-50%);
+    width: 450px;
+    z-index: 1;
+}
+
+.header_image img {
+    width: 100%;
+}
